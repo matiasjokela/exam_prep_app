@@ -1,0 +1,19 @@
+{
+  "name": "exam_prep_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasjokela/exam_prep_app_backend.git"
+  },
+  "author": "Matias Jokela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasjokela/exam_prep_app_backend/issues"
+  },
+  "homepage": "https://github.com/matiasjokela/exam_prep_app_backend#readme"
+}
