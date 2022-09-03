@@ -4,12 +4,12 @@ const cors = require('cors')
 const questionsRouter = require('./controllers/questions')
 const usersRouter = require('./controllers/users')
 const mongoose = require('mongoose')
-
-require('dotenv').config() // move this to separate config file
-
+const config = require('./utils/config')
 
 
-mongoose.connect(process.env.MONGODB_URI).then(() => {
+
+
+mongoose.connect(config.MONGODB_URI).then(() => {
 	console.log('connected to MongoDB')
 }).catch((error) => {
 	console.log('herja:', error)
