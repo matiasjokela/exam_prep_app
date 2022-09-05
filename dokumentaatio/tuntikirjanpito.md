@@ -6,4 +6,6 @@
 | 3.9   | 1    | käyttäjien lisääminen tietokantaan, config |
 | 4.9   | 1    | error handling, logger |
 |       | 3    | korjaus käyttäjien luomiseen, login ja tokenin luominen |
-| yht	| 8    |  |
+| 5.9   | 2    | userExtractor, tokenExtractor, loginin korjaus |
+|       | 8    | backendin testien rakentamista, paljon debuggausta (rikki jäi) |
+| yht	| 18   |  |
