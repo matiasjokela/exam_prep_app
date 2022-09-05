@@ -23,7 +23,7 @@ app.use(cors())
 app.use(express.json())
 
 app.use(middleware.requestLogger)
-app.use('/api/questions', questionsRouter)
+app.use('/api/questions', middleware.tokenExtractor, middleware.userExtractor, questionsRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)
 

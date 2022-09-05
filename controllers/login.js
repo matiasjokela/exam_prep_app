@@ -4,15 +4,14 @@ const bcrypt = require('bcrypt')
 const User = require('../models/user')
 
 
-loginRouter.post('/', async (request, reponse) => {
-	console.log(request.body)
+loginRouter.post('/', async (request, response) => {
 	const { username, password } = request.body
 	console.log(username, password)
 	const user = await User.findOne({ username })
 	console.log(user)
 	const passwordCorrect = !user ? false : await bcrypt.compare(password, user.passwordHash)
 	if (!passwordCorrect) {
-		return reponse.status(401).json({
+		return response.status(401).json({
 			error: 'Väärä käyttäjätunnus tai salasana'
 		})
 	}
