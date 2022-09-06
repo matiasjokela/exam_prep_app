@@ -41,12 +41,8 @@ const listWithOneQuestion = [
 
 const initialUsers = [
 	{
-		'username': 'Esteri',
-		'password': 'secret'
-	},
-	{
-		'username': 'Testeri',
-		'password': 'salaisuus'
+		username: 'Esteri',
+		password: 'secret'
 	}
 ]
 

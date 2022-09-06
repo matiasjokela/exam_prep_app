@@ -39,3 +39,7 @@ describe('tests for questions', () => {
 		expect(questions).toHaveLength(helper.initialQuestions.length)
 	})
 })
+
+afterAll(() => {
+	mongoose.connection.close()
+})

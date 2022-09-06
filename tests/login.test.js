@@ -1,3 +1,4 @@
+const mongoose = require('mongoose')
 const supertest = require('supertest')
 const app = require('../app')
 const api = supertest(app)
@@ -7,7 +8,7 @@ const helper = require('./test_helper')
 describe('tests for login', () => {
 	beforeEach(async () => {
 		await User.deleteMany({})
-		await User.insertMany(helper.initialUsers)
+		await api.post('/api/users').send(helper.initialUsers[0])
 	})
 	test('existing user can log in and is given a token', async () => {
 		const testUser = {
@@ -16,11 +17,15 @@ describe('tests for login', () => {
 		}
 		const login = await api.post('/api/login').send(testUser)
 		const token = login.body.token
-		console.log('login', login.body)
-		console.log('token', token)
+		//console.log('login', login.body)
+		//console.log('token', token)
 
 	})
 	test('invalid attempt returns 401', async () => {
 		
 	})
+})
+
+afterAll(() => {
+	mongoose.connection.close()
 })
