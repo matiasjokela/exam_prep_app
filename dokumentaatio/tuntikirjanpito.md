@@ -8,4 +8,5 @@
 |       | 3    | korjaus käyttäjien luomiseen, login ja tokenin luominen |
 | 5.9   | 2    | userExtractor, tokenExtractor, loginin korjaus |
 |       | 8    | backendin testien rakentamista, paljon debuggausta (rikki jäi) |
-| yht	| 18   |  |
+| 6.9   | 5    | testien debuggausta (vika löytyi), lisää testausta, korjauksia controllereihin |
+| yht	| 23   |  |

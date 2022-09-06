@@ -1,5 +1,9 @@
 const Question = require('../models/question')
 const User = require('../models/user')
+const supertest = require('supertest')
+const app = require('../app')
+
+const api = supertest(app)
 
 const initialQuestions = [
 	{
@@ -43,9 +47,18 @@ const initialUsers = [
 	{
 		username: 'Esteri',
 		password: 'secret'
-	}
+	},
+	{
+		username: 'Tester',
+		password: 'salaisuus'
+	},
 ]
 
+const insertInitialUsers = async () => {
+	for (let user of initialUsers) {
+		await api.post('/api/users').send(user)
+	}
+}
 
 const questionsInDb = async () => {
 	const questions = await Question.find({})
@@ -58,7 +71,7 @@ const usersInDb = async () => {
 }
 
 module.exports = { initialQuestions,
-	initialUsers,
+	insertInitialUsers,
 	listWithOneQuestion,
 	questionsInDb,
 	usersInDb

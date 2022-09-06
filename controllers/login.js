@@ -6,6 +6,11 @@ const User = require('../models/user')
 
 loginRouter.post('/', async (request, response) => {
 	const { username, password } = request.body
+	if (!username || !password) {
+		return response.status(400).json({
+			error: 'Anna käyttäjätunnus ja salasana'
+		})
+	}
 	const user = await User.findOne({ username })
 	const passwordCorrect = !user ? false : await bcrypt.compare(password, user.passwordHash)
 	if (!passwordCorrect) {

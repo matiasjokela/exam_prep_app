@@ -18,6 +18,12 @@ questionsRouter.get('/:id', async (request, response) => {
 /* Only admin should be able to post or delete questions => add that */
 questionsRouter.post('/', async (request, response) => {
 	const body = request.body
+	if (!(body.question && body.option_a && body.option_b && body.option_c &&
+		body.option_d && body.answer)) {
+			return response.status(400).json({
+				error: "Anna arvo kaikille kentille"
+			})
+		}
 	const question = new Question({
 		question: body.question,
 		option_a: body.option_a,
