@@ -9,4 +9,7 @@
 | 5.9   | 2    | userExtractor, tokenExtractor, loginin korjaus |
 |       | 8    | backendin testien rakentamista, paljon debuggausta (rikki jäi) |
 | 6.9   | 5    | testien debuggausta (vika löytyi), lisää testausta, korjauksia controllereihin |
-| yht	| 23   |  |
+| 7.9   | 4    | Frontendin ulkoasun ja toiminnan suunnittelu ja alustava toteutus |
+|       | 4    | Pelilogiikan toteutus perusversiolle |
+|       | 3    | CSS tyylien opiskelua ja testailua |
+| yht	| 34   |  |
