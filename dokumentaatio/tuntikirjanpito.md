@@ -12,4 +12,5 @@
 | 7.9   | 4    | Frontendin ulkoasun ja toiminnan suunnittelu ja alustava toteutus |
 |       | 4    | Pelilogiikan toteutus perusversiolle |
 |       | 3    | CSS tyylien opiskelua ja testailua |
+| 9.9   | 9    | Bootstrapin opiskelua ja käyttöliittymän muokkausta |
 | yht	| 34   |  |
