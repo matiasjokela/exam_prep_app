@@ -13,4 +13,4 @@
 |       | 4    | Pelilogiikan toteutus perusversiolle |
 |       | 3    | CSS tyylien opiskelua ja testailua |
 | 9.9   | 9    | Bootstrapin opiskelua ja käyttöliittymän muokkausta |
-| yht	| 34   |  |
+| yht	| 43   |  |
