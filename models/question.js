@@ -1,12 +1,14 @@
 const mongoose = require('mongoose')
 
 const questionSchema = mongoose.Schema({
+	header: String,
 	question: String,
 	option_a: String,
 	option_b: String,
 	option_c: String,
 	option_d: String,
-	answer: String
+	answer: String,
+	category: String
 })
 
 questionSchema.set('toJSON', {

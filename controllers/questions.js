@@ -19,18 +19,20 @@ questionsRouter.get('/:id', async (request, response) => {
 questionsRouter.post('/', async (request, response) => {
 	const body = request.body
 	if (!(body.question && body.option_a && body.option_b && body.option_c &&
-		body.option_d && body.answer)) {
+		body.option_d && body.answer && body.category)) {
 			return response.status(400).json({
 				error: "Anna arvo kaikille kentille"
 			})
 		}
 	const question = new Question({
+		header: body.header,
 		question: body.question,
 		option_a: body.option_a,
 		option_b: body.option_b,
 		option_c: body.option_c,
 		option_d: body.option_d,
-		answer: body.answer
+		answer: body.answer,
+		category: body.category
 	})
 	const savedQuestion = await question.save()
 	response.status(201).json(savedQuestion)

@@ -13,4 +13,7 @@
 |       | 4    | Pelilogiikan toteutus perusversiolle |
 |       | 3    | CSS tyylien opiskelua ja testailua |
 | 9.9   | 9    | Bootstrapin opiskelua ja käyttöliittymän muokkausta |
-| yht	| 43   |  |
+| 10.9  | 2    | Paluu käyttämään omaa css:ää Bootstrapin sijaan |
+|       | 4    | Toiminnallisuus kirjautumiselle ja käyttäjien lisäämiselle |
+|       | 5    | Kysymyksien jako aiheittain, tarpeelliset käyttöliittymän muokkaukset |
+| yht	| 54   |  |
