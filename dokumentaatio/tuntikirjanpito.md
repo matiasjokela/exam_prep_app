@@ -16,4 +16,6 @@
 | 10.9  | 2    | Paluu käyttämään omaa css:ää Bootstrapin sijaan |
 |       | 4    | Toiminnallisuus kirjautumiselle ja käyttäjien lisäämiselle |
 |       | 5    | Kysymyksien jako aiheittain, tarpeelliset käyttöliittymän muokkaukset |
-| yht	| 54   |  |
+| 12.9  | 3    | CSS:n opiskelua (Youtube) ja refaktorointia |
+|       | 2    | Sovelluksen ulkoasun parantelua |
+| yht	| 59   |  |
