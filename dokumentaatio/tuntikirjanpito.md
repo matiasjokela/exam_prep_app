@@ -18,4 +18,5 @@
 |       | 5    | Kysymyksien jako aiheittain, tarpeelliset käyttöliittymän muokkaukset |
 | 12.9  | 3    | CSS:n opiskelua (Youtube) ja refaktorointia |
 |       | 2    | Sovelluksen ulkoasun parantelua |
-| yht	| 59   |  |
+| 5.11  | 3    | Parannettu loginin turvallisuutta (vaaditaan enemmän kuin oikea avain localStorageen) |
+| yht	| 62   |  |
