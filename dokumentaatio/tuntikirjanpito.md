@@ -19,4 +19,6 @@
 | 12.9  | 3    | CSS:n opiskelua (Youtube) ja refaktorointia |
 |       | 2    | Sovelluksen ulkoasun parantelua |
 | 5.11  | 3    | Parannettu loginin turvallisuutta (vaaditaan enemmän kuin oikea avain localStorageen) |
-| yht	| 62   |  |
+| 6.11  | 2    | Fysiikka lisätty kategorioihin ja sille lisätty kysymyksiä |
+|       | 4    | Kysymysten lisäämistä, käyttöliittymän parantelua |
+| yht	| 68   |  |
