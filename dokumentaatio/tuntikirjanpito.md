@@ -22,4 +22,5 @@
 | 6.11  | 2    | Fysiikka lisätty kategorioihin ja sille lisätty kysymyksiä |
 |       | 4    | Kysymysten lisäämistä, käyttöliittymän parantelua |
 | 7.11  | 2    | Kysymysten lisäämistä |
-| yht	| 70   |  |
+| 12.11 | 4    | Kysymysten lisäämistä |
+| yht	| 74   |  |
