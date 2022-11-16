@@ -24,4 +24,5 @@
 | 7.11  | 2    | Kysymysten lisäämistä |
 | 12.11 | 4    | Kysymysten lisäämistä |
 | 15.11 | 3    | Vielä kerran vaihdettu takaisin Bootstrapin elementteihin |
-| yht	| 77   |  |
+| 16.11 | 8    | Bootstrapin opiskelua ja käyttöliittymän muokkausta |
+| yht	| 85   |  |
