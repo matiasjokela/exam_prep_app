@@ -28,4 +28,5 @@
 | 17.11 | 4    | Bootstrapin opiskelua ja käyttöliittymän muokkausta |
 | 18.11 | 1    | Pieniä muutoksia ulkoasuun |
 |       | 5    | Backend ja frontend toiminnallisuus tilastojen laskemiseen |
-| yht	| 95   |  |
+|       | 3    | Ensimmäinen versio tilastot näyttävästä sivusta |
+| yht	| 98   |  |
