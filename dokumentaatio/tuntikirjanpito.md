@@ -26,4 +26,6 @@
 | 15.11 | 3    | Vielä kerran vaihdettu takaisin Bootstrapin elementteihin |
 | 16.11 | 8    | Bootstrapin opiskelua ja käyttöliittymän muokkausta |
 | 17.11 | 4    | Bootstrapin opiskelua ja käyttöliittymän muokkausta |
-| yht	| 89   |  |
+| 18.11 | 1    | Pieniä muutoksia ulkoasuun |
+|       | 5    | Backend ja frontend toiminnallisuus tilastojen laskemiseen |
+| yht	| 95   |  |

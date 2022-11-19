@@ -7,6 +7,11 @@ usersRouter.get("/", async (request, response) => {
   response.json(users);
 });
 
+usersRouter.get("/:id", async (request, response) => {
+  const user = await User.findById(request.params.id);
+  response.json(user);
+});
+
 usersRouter.post("/", async (request, response) => {
   const { username, password } = request.body;
   if (!username || !password) {
@@ -35,6 +40,15 @@ usersRouter.post("/", async (request, response) => {
   const newUser = new User({
     username: username,
     passwordHash: passwordHash,
+    physicsCorrect: 0,
+    physicsTotal: 0,
+    chemistryCorrect: 0,
+    chemistryTotal: 0,
+    biologyCorrect: 0,
+    biologyTotal: 0,
+    bestCorrect: 0,
+    bestTotal: 0,
+    bestCategory: "",
   });
   const savedUser = await newUser.save();
   response.status(201).json(savedUser);
@@ -46,6 +60,17 @@ usersRouter.delete("/:id", async (request, response) => {
     await User.findByIdAndRemove(request.params.id);
   }
   response.status(204).end();
+});
+
+usersRouter.put("/:id", async (request, response) => {
+  const user = await User.findById(request.params.id);
+  if (user) {
+    await User.findByIdAndUpdate(request.params.id, request.body, {
+      new: true,
+    });
+    const updatedUser = await User.findById(request.params.id);
+    response.json(updatedUser);
+  }
 });
 
 module.exports = usersRouter;
