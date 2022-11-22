@@ -29,4 +29,5 @@
 | 18.11 | 1    | Pieniä muutoksia ulkoasuun |
 |       | 5    | Backend ja frontend toiminnallisuus tilastojen laskemiseen |
 |       | 3    | Ensimmäinen versio tilastot näyttävästä sivusta |
-| yht	| 98   |  |
+| 22.11 | 4    | Bugien korjausta ja pientä parantelua |
+| yht	| 102  |  |
