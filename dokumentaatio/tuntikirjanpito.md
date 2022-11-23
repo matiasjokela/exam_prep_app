@@ -30,4 +30,6 @@
 |       | 5    | Backend ja frontend toiminnallisuus tilastojen laskemiseen |
 |       | 3    | Ensimmäinen versio tilastot näyttävästä sivusta |
 | 22.11 | 4    | Bugien korjausta ja pientä parantelua |
-| yht	| 102  |  |
+| 23.11 | 4    | Toiminnallisuuden viimeistelyä (jos en päätä lisätä vielä jotain) |
+|       | 4    | Ulkoasun parantelua |
+| yht	| 110  |  |
