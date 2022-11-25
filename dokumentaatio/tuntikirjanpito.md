@@ -32,4 +32,5 @@
 | 22.11 | 4    | Bugien korjausta ja pientä parantelua |
 | 23.11 | 4    | Toiminnallisuuden viimeistelyä (jos en päätä lisätä vielä jotain) |
 |       | 4    | Ulkoasun parantelua |
-| yht	| 110  |  |
+| 25.11 | 2    | Pieniä parannuksia tomintalogiikkaan |
+| yht	| 112  |  |
