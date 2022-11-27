@@ -19,9 +19,9 @@ usersRouter.post("/", async (request, response) => {
       error: "Anna käyttäjätunnus ja salasana",
     });
   }
-  if (username.length < 3) {
+  if (username.length < 3 || username.length > 12) {
     return response.status(400).json({
-      error: "Käyttäjätunnuksen tulee olla vähintään kolme merkkiä pitkä",
+      error: "Käyttäjätunnuksen pituuden tulee olla 3-12 merkkiä",
     });
   }
   if (password.length < 6) {
