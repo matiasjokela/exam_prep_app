@@ -34,4 +34,5 @@
 |       | 4    | Ulkoasun parantelua |
 | 25.11 | 2    | Pieniä parannuksia toimintalogiikkaan |
 | 27.11 | 8    | Toiminnallisuuden ja UI:n viimeistely |
-| yht	| 120  |  |
+| 28.11 | 2    | Aloitettu refaktorointi käyttämään redux storea, kun se on järkevää |
+| yht	| 122  |  |
