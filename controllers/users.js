@@ -1,6 +1,7 @@
 const usersRouter = require("express").Router();
 const User = require("../models/user");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 
 usersRouter.get("/", async (request, response) => {
   const users = await User.find({});
@@ -10,6 +11,16 @@ usersRouter.get("/", async (request, response) => {
 usersRouter.get("/:id", async (request, response) => {
   const user = await User.findById(request.params.id);
   response.json(user);
+});
+
+usersRouter.post("/token", async (request, response) => {
+  const { token } = request.body;
+  try {
+    const decodedToken = jwt.verify(token, process.env.SECRET);
+    return response.status(200).json(decodedToken.id);
+  } catch (e) {
+    return response.status(401).end();
+  }
 });
 
 usersRouter.post("/", async (request, response) => {
