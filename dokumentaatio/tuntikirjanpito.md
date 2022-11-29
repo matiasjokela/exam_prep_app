@@ -36,4 +36,5 @@
 | 27.11 | 8    | Toiminnallisuuden ja UI:n viimeistely |
 | 28.11 | 2    | Aloitettu refaktorointi käyttämään redux storea, kun se on järkevää |
 | 29.11 | 4    | Käyttäjien hallinta redux storeen ja token-perusteiseksi |
-| yht	| 126  |  |
+|       | 4    | Väärin päivittyvien tilastojen debuggausta (syytä ei löytynyt) |
+| yht	| 130  |  |
