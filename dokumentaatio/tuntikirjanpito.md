@@ -37,4 +37,6 @@
 | 28.11 | 2    | Aloitettu refaktorointi käyttämään redux storea, kun se on järkevää |
 | 29.11 | 4    | Käyttäjien hallinta redux storeen ja token-perusteiseksi |
 |       | 4    | Väärin päivittyvien tilastojen debuggausta (syytä ei löytynyt) |
-| yht	| 130  |  |
+| 3.12  | 5    | Bugien korjausta ja testausta |
+|       | 3    | Aloitettu refaktorointi käyttämään routeja |
+| yht	| 138  |  |
