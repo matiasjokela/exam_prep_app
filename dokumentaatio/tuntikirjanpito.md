@@ -39,4 +39,5 @@
 |       | 4    | Väärin päivittyvien tilastojen debuggausta (syytä ei löytynyt) |
 | 3.12  | 5    | Bugien korjausta ja testausta |
 |       | 3    | Aloitettu refaktorointi käyttämään routeja |
-| yht	| 138  |  |
+| 4.12  | 8    | Routejen refaktorointi loppuun, bugeja jäi |
+| yht	| 146  |  |
