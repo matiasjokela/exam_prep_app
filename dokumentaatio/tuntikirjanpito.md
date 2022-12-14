@@ -42,4 +42,5 @@
 | 4.12  | 8    | Routejen refaktorointi loppuun, bugeja jäi |
 | 5.12  | 8    | Bugien korjausta, vaihdettu useLocationin käyttöön, projekti testausta yms. vaille valmis |
 | 9.12  | 6    | Testausta, bugien korjausta |
-| yht	| 160  |  |
+| 14.12 | 5    | Testausta, bugien korjausta |
+| yht	| 165  |  |
