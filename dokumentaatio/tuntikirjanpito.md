@@ -43,4 +43,5 @@
 | 5.12  | 8    | Bugien korjausta, vaihdettu useLocationin käyttöön, projekti testausta yms. vaille valmis |
 | 9.12  | 6    | Testausta, bugien korjausta |
 | 14.12 | 5    | Testausta, bugien korjausta |
-| yht	| 165  |  |
+| 16.12 | 7    | Testausta, bugien korjausta, koodin siivousta |
+| yht	| 172  |  |
