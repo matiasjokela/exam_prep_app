@@ -44,4 +44,5 @@
 | 9.12  | 6    | Testausta, bugien korjausta |
 | 14.12 | 5    | Testausta, bugien korjausta |
 | 16.12 | 7    | Testausta, bugien korjausta, koodin siivousta |
-| yht	| 172  |  |
+| 17.12 | 4    | Testausta, appi internetiin, jäi bugiseksi |
+| yht	| 176  |  |
