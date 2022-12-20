@@ -62,7 +62,14 @@ usersRouter.post("/", async (request, response) => {
     bestCategory: "",
   });
   const savedUser = await newUser.save();
-  response.status(201).json(savedUser);
+  const userForToken = {
+    username: username,
+    id: savedUser.id,
+  };
+  const token = jwt.sign(userForToken, process.env.SECRET, {
+    expiresIn: 360 * 60,
+  });
+  response.status(201).send({ token, username: username });
 });
 
 usersRouter.delete("/:id", async (request, response) => {
