@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/matiasjokela/exam_prep_app_backend/issues"
   },
-  "homepage": "https://github.com/matiasjokela/exam_prep_app_backend#readme",
+  "homepage": ".",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
