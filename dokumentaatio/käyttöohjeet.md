@@ -8,7 +8,7 @@
 
 ![landing](./pics/landing.png)
 
-### 3. Vastaile ksymyksiin. Sovellus kertoo, oliko vastauksesi oikein vai väärin
+### 3. Vastaile kysymyksiin. Sovellus kertoo, oliko vastauksesi oikein vai väärin
 
 ![right](./pics/right.png)
 
