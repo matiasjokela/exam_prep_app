@@ -8,6 +8,9 @@ Sovelluksen frontend on toteutettu Reactilla ja backend Nodella. Tietokantana on
 
 ## Dokumentaatio
 
+[tuntikirjanpito](./dokumentaatio/tuntikirjanpito.md)
+[käyttöohjeet](./dokumentaatio/k%C3%A4ytt%C3%B6ohjeet.md)
+
 
 
 

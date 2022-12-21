@@ -46,4 +46,5 @@
 | 16.12 | 7    | Testausta, bugien korjausta, koodin siivousta |
 | 17.12 | 4    | Testausta, appi internetiin, jäi bugiseksi |
 | 20.12 | 3    | Korjattu bugi, joka aiheutti virheellisiä unknown endpoint erroreita julkaistussa versiossa |
-| yht	| 179  |  |
+| 21.12 | 1    | Dokumentaation kirjoittaminen |
+| yht	| 180  |  |
