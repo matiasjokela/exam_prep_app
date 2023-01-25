@@ -60,6 +60,7 @@ usersRouter.post("/", async (request, response) => {
     bestCorrect: 0,
     bestTotal: 0,
     bestCategory: "",
+    isAdmin: false,
   });
   const savedUser = await newUser.save();
   const userForToken = {

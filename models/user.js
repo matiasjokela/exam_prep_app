@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const Question = require("./question.js");
 
 const userSchema = mongoose.Schema({
   username: String,
@@ -12,6 +13,8 @@ const userSchema = mongoose.Schema({
   bestCorrect: Number,
   bestTotal: Number,
   bestCategory: String,
+  isAdmin: Boolean,
+  questions: [{ type: mongoose.Schema.Types.ObjectId, ref: "Question" }],
 });
 
 userSchema.set("toJSON", {
