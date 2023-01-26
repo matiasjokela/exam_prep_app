@@ -41,6 +41,7 @@ questionsRouter.post("/", async (request, response) => {
     option_d: body.option_d,
     answer: body.answer,
     category: body.category,
+    ...(body.userId ? { userId: body.userId } : {}),
   });
   const savedQuestion = await question.save();
   response.status(201).json(savedQuestion);

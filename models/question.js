@@ -9,6 +9,7 @@ const questionSchema = mongoose.Schema({
   option_d: String,
   answer: String,
   category: String,
+  userId: String,
 });
 
 questionSchema.set("toJSON", {

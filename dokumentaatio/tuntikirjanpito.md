@@ -48,4 +48,6 @@
 | 20.12 | 3    | Korjattu bugi, joka aiheutti virheellisiä unknown endpoint erroreita julkaistussa versiossa |
 | 21.12 | 1    | Dokumentaation kirjoittaminen |
 | 25.1  | 2    | Admin -tieto lisätty, kysymysten lisääminen käyttöliittymästä aloitettu |
-| yht	| 182  |  |
+| 26.1  | 5    | Layout kysymyksiä lisäävälle formille ja kysymysten listalle|
+|       | 1    | Alustava toiminnallisuus kysymysten lisäämiselle käyttöliittymästä |
+| yht	| 188  |  |
