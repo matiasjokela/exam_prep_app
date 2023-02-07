@@ -24,8 +24,8 @@
 Valikon sisältö riippuu siitä oletko admin vai et. Jos et ole, voit pyytää admin-oikeuksia valikosta (ohjelman tässä versiossa oikeudet myönnetään automaattisesti). Muussa tapauksessa valikossa on linkki sivulle, jossa voit lisätä kysymyksiä ja poistaa itse lisäämiäsi kysymyksiä. Kaikki käyttäjät näkevät tilastosivulle vievän linkin sekä mahdollisuuden kirjautua ulos tai poistaa käyttäjätilinsä.
 
 <p float="left">
-<img src="./pics/landing2.png" width="50%" height="50%">
-<img src="./pics/landing3.png" width="50%" height="50%">
+<img src="./pics/landing2.png" width="45%" height="45%">
+<img src="./pics/landing3.png" width="45%" height="45%">
 </p>
 
 
