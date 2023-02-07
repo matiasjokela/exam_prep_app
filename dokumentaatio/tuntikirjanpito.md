@@ -50,4 +50,6 @@
 | 25.1  | 2    | Admin -tieto lisätty, kysymysten lisääminen käyttöliittymästä aloitettu |
 | 26.1  | 5    | Layout kysymyksiä lisäävälle formille ja kysymysten listalle|
 |       | 1    | Alustava toiminnallisuus kysymysten lisäämiselle käyttöliittymästä |
-| yht	| 188  |  |
+| 7.2   | 4    | Toiminnallisuuden viimeistely, testaus, buginkorjaus |
+|       | 2    | Apin julkaisu internetiin, dokumentaation päivittäminen |
+| yht	| 194  |  |
