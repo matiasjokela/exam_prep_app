@@ -18,8 +18,21 @@
 
 ![score](./pics/score.png)
 
-### 5. Klikkaamalla käyttäjänimeäsi etusivulla pääset tarkastelemaan tilastojasi. Voit myös kirjautua ulos tai poistaa käyttäjäsi
+### 5. Klikkaamalla käyttäjänimeäsi etusivulla sinulle aukeaa valikko
+
+Valikon sisältö riippuu siitä oletko admin vai et. Jos et ole, voit pyytää admin oikeuksia valikosta. Muussa tapauksessa valikossa on linkki sivulle, jossa voit lisätä kysymyksiä ja poistaa itse lisäämiäsi kysymyksiä. Kaikki käyttäjät näkevät tilastosivulle vievän linkin sekä mahdollisuuden kirjautua ulos tai poistaa käyttäjätilinsä.
 
 ![landing2](./pics/landing2.png)
+![landing3](./pics/landing3.png)
+
+### 6. Tilastosivulla näet yhteenvedon tilastoistasi kategorioittain sekä parhaan suorituksesi
 
 ![stats](./pics/stats.png)
+
+### 7. Kysymyssivulla näet itse lisäämäsi kysymykset ja voit lisätä uusia kysymyksiä. Oikeanpuoleinen nappi vaihtele näiden näkymien välillä.
+
+Kysymyslistasta kysymystä klikkaamalla aukeaa kysymyksen vastausvaihtoehdot sekä kategoria ja mahdollisuus poistaa kysymys. Oikea vastaus on korostettu vihreällä.
+
+![question_list](./pics/question_list.png)
+<img src="./pics/question_list.png" width="50%" height="50%">
+![question_form](./pics/question_form.png)
